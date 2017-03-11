@@ -1,15 +1,13 @@
-<!doctype html>
+# Header 1
+## Header 2
+### Header 3
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+- Bulleted
+- List
 
-  <title>Hello World</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-</head>
+1. Numbered
+2. List
 
-<body>
-  <h2>Hello world!</h2>
-</body>
-</html>
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
