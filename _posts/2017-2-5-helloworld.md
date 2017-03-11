@@ -1,7 +1,14 @@
-# Project Gaia
-
-
+---
+layout: post
+title: Jekyll Theme - Project Gaia
+category : Intro
+tags : [intro, tag1, tag2]
+stickie: true
+---
 ## Updated History
+
+- Mar 5th, 2017
+Style updated
 
 - Mar 1st, 2017
 Change another toc plugin
@@ -11,23 +18,17 @@ Rebuild to include **Bootstrap 4-Alpha** and **JQuery 3**
 
 ## Desc
 
-This is a personal Jekyll blog theme.
+This is a personal blog source code.
 
 The theme name is 'Project Gaia', cuz I have another under building project named 'Project Uranus' o(*￣▽￣*)o 
 
-![](    demo/1.jpg  )
-![](    demo/2.jpg  )
-![](    demo/3.jpg  )
-![](    demo/4.jpg  )
+repo link: [szhielelp/JekyllTheme-ProjectGaia](https://github.com/szhielelp/JekyllTheme-ProjectGaia)
 
+## Post Example
 
-## Demo
+Here is a post example
 
-See demo page here: [    Demo Page   ](https://szhielelp.github.io/JekyllTheme-ProjectGaia/)
-
-See extended blog here: [    Blog Page   ](http://szhshp.org/)
-
-See chinese guide post here: [   中文指导    ](http://szhshp.org/tech/2017/01/09/projectgaia.html)
+[Please check the code in Markdown]
 
 ## Plugins
 
@@ -43,13 +44,21 @@ Usage(include necessary CSS and JS and run **SyntaxHighlighter.all()**):
 
 Here is code snippet example:
 
-![](    demo/X3.png )
+<pre class="brush: html">
+    [please check the post markdown here]
+    <ul>
+      <li class="headerlink">
+        <a class="content active">List</a>
+        <a class="link inactived">Link</a>
+      </li>
+    </ul>
+</pre>
 
 ### Table of Content
 
 Realized with this repo: [    jgallen23/toc  ](https://github.com/jgallen23/toc)
 
-![](   demo/X2.png   )
+![](   /demo/X2.png   )
 
 Auto-run when page loaded.
 
@@ -60,7 +69,7 @@ Realized with this repo: [    szhielelp/md-post-header-collapse  ](https://githu
 Run **$.headerCollapseRobot()** after post loaded.
 
 <pre class="brush: js">
-    /*header collapsible*/
+    /*header collapsible example*/
     $.headerCollapseRobot(
       arr_Id_CollapseEnds =  new Array("end"),                       
       arr_Collapsible_Tag = new Array("H1","H2","H3"),                       
@@ -69,7 +78,7 @@ Run **$.headerCollapseRobot()** after post loaded.
     )
 </pre>
 
-![](   demo/X1.png   )
+![](   /demo/X1.png   )
 
 You can try clicking on the icons near titles.
 
