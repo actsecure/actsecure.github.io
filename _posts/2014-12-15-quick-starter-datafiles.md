@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Added football.db Quick Starter Datafile Templates - $ sportdb new worldcup"
+published: false
 ---
 
 The sportdb command line tool now includes a new quick starter

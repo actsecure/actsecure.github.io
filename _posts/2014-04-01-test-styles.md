@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Test Theme Styles"
+published: false
 ---
 
 # Heading 1
