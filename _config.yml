@@ -1,33 +1,37 @@
+###########
+# site.title, site.url, site.author.name
 
-# Site settings
-title: ActSecure 
-email: actsecure@protonmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+title:   'ActSecure'
+author:
+  name:  'ActSecure'
 
-# User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
+## note: 
+#  use site.path in your templates to make it work for both protocols e.g. http and https
+#  use site.url only inside the web feed template (e.g. requires full url incl. protocol)
+path: /jekyll-minimal-theme
+url:  'http://localhost:4000'
 
-# API settings
-google_api_key:
+# http://henrythemes.github.io/jekyll-minimal-theme
 
-# Build settings
-gems: [jekyll-paginate]
+########
+# more settings
 
 markdown: kramdown
-# toc_levels: 1..2
 
+sass:
+  sass_dir: css
+  style:    expanded
+
+permalink: /:title.html
+
+exclude:
+- README.md
+
+safe: true
+lsi: false
+
+# Social Media
+protonmail: 'mailto:actsecure@protonmail.com'
+facebook: 'https://facebook.com/actsecure'
+twitter: 'https://twitter.com/actsecure'
+github: 'https://github.com/actsecure/'
