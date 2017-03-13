@@ -5,12 +5,12 @@ html {
 }
 
 body {
-  color: #FFFFFF;
-  background-color: #292F36;
+  color: #515151;
+  background-color: #fff;
 }
 
 a {
-  color: #32837D;
+  color: #268bd2;
   text-decoration: none;
 }
 a strong {
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
   font-weight: bold;
   line-height: 1.25;
-  color: #33ff66;
+  color: #313131;
   text-rendering: optimizeLegibility;
 }
 
@@ -53,7 +53,7 @@ p {
 }
 
 strong {
-  color: #FFFFFF;
+  color: #303030;
 }
 
 ul, ol, dl {
@@ -85,7 +85,7 @@ pre {
   padding: 1rem;
   font-size: .8rem;
   line-height: 1.4;
-  background-color: #C1C1C1;
+  background-color: #f9f9f9;
 }
 pre code {
   padding: 0;
@@ -97,8 +97,8 @@ pre code {
 blockquote {
   padding: .5rem 1rem;
   margin: .8rem 0;
-  color: #4ECDC4;
-  border-left: 0.25rem solid #C1C1C1;
+  color: #7a7a7a;
+  border-left: 0.25rem solid #e5e5e5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -114,17 +114,17 @@ img {
 table {
   margin-bottom: 1rem;
   width: 100%;
-  border: 1px solid #C1C1C1;
+  border: 1px solid #e5e5e5;
   border-collapse: collapse;
 }
 table td,
 table th {
   padding: .25rem .5rem;
-  border: 1px solid #4ECDC4;
+  border: 1px solid #e5e5e5;
 }
 table tr:nth-child(odd) td,
 table tr:nth-child(odd) th {
-  background-color: #292F36;
+  background-color: #f9f9f9;
 }
 
 .container {
@@ -143,13 +143,13 @@ table tr:nth-child(odd) th {
 .masthead .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #FFFFFF;
+  color: #505050;
 }
 .masthead .masthead-title a {
-  color: #FFFFFF;
+  color: #505050;
 }
 .masthead .masthead-title small {
-  color: #292F36;
+  color: #C0C0C0;
   font-size: 75%;
   font-weight: 400;
   letter-spacing: 0;
@@ -169,9 +169,9 @@ table tr:nth-child(odd) th {
 
 .post-title,
 .post-title a {
-  color: #33ff66;
+  color: #303030;
 }
 
 .post-date {
-  color: #C1C1C1;
+  color: #9a9a9a;
 }
