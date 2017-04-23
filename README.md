@@ -16,5 +16,6 @@ published: true
 
 ## Todos
 - Get a better color scheme going on this thing.
-- Add content to "about" and move the contact info to footer code in the default layout. 
+- Add content to "about"
+- Move the contact info to footer code in the default layout. 
 - Add "author" and "date" to the post layout. 
