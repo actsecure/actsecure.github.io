@@ -12,6 +12,7 @@ email: actsecure@protonmail.com
 twitter_username: actsecure
 facebook_username: actsecure
 github_username:  actsecure
+gitter_username:  actsecure
 
 # projects in header index
 projects:
@@ -24,8 +25,8 @@ projects:
 links:
   - title: home
     url: /
-  - title: posts
-    url: /posts
+  - title: blog
+    url: /blog
   - title: tags
     url: /tags
   - title: about us

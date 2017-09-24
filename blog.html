@@ -1,21 +1,23 @@
 ---
-layout: default
+layout: minimal
 title: Blog
 ---
 
-{% for post in site.posts %}
+<h2>Bloglets</h2>
 
-<article class='post'>
-  <h1 class='post-title'>
-    <a href="{{ site.url }}{{ post.url }}">
-      {{ post.title }}
-    </a>
-  </h1>
-  <div class="post-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-  {{ post.exceprt}} 
-    <a href="{{ site.path }}{{ post.url }}">
-      more...
-    </a>
-</article>
 
-{% endfor %}
+
+<div class="aboutme">
+  <ul class="recent">
+    {% for post in site.posts %}
+    <li>
+      <h3>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}:</span>
+        <a href="{{ site.url }}{{ post.url }}">
+          {{ post.title }}
+        </a>
+      </h3>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
