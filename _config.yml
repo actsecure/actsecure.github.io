@@ -2,8 +2,7 @@
 title:  'ActSecure'
 description: "On a quest for holistic security"
 baseurl: "" 
-url: "http://hurtstotouchfire.github.io/actsecure.github.io" 
-# for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://actsecure.github.io" 
 
 # User settings
 username: actsecure
