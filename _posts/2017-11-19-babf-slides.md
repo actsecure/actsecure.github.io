@@ -19,4 +19,4 @@ You can peruse our slides below. Don't get too paranoid and take it one step at 
 Love and struggle,
 ActSecure
 
-<iframe src="https://cryptpad.fr/slide/#/1/view/IUpO2DmnQr5fX7x9y180-g/UGO6azhcQSb8HyRAIiLh1ITRJnh1IBo+dvIQ3K5r1q8/embed/present/"></iframe>
+<iframe width="640" src="https://cryptpad.fr/slide/#/1/view/IUpO2DmnQr5fX7x9y180-g/UGO6azhcQSb8HyRAIiLh1ITRJnh1IBo+dvIQ3K5r1q8/embed/present/"></iframe>
