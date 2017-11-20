@@ -2,7 +2,7 @@
 layout: post
 title: "Clearing data brokers and locking down Facebook"
 published: true
-excerpt: "We've migrated to this amazing spacemacs theme"
+excerpt: "We have been gradually building up some resources on our wiki."
 tags:
 - doxxing
 - facebook
