@@ -13,9 +13,3 @@ date: 2017-03-12 21:02:00 -0500
 published: true
 ---
 ~~~
-
-## Todos
-- Get a better color scheme going on this thing.
-- Add content to "about"
-- Move the contact info to footer code in the default layout. 
-- Add "author" and "date" to the post layout. 
