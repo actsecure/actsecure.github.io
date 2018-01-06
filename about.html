@@ -1,18 +1,7 @@
 ---
-layout: minimal
+layout: default
 title: "About ActSecure"
 permalink: /about/index.html
 description: "We can't really label this thing from inside of the thing."
 ---
 
-<img itemprop="image" class="img-rounded about_perfil" src="{{ site.url }}/assets/img/lock.png" alt="ActSecure">
-
-<h2>Projects</h2>
-
-<div class="aboutme">
-  <ul class="recent">
-    {% for project in site.projects %}
-    <li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
-    {% endfor %}
-  </ul>
-</div>

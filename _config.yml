@@ -13,7 +13,7 @@ facebook_username: actsecure
 github_username:  actsecure
 gitter_username:  actsecure
 
-# projects in header index
+# Projects listed on index
 projects:
   - name: protest-guide
     url: https://github.com/actsecure/protest.guide
@@ -28,8 +28,6 @@ links:
     url: /blog
   - title: tags
     url: /tags
-  - title: about us
-    url: /about
 
 ################################################### Build settings
 markdown: kramdown
