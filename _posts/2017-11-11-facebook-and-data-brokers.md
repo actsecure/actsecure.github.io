@@ -6,7 +6,7 @@ excerpt: "We have been gradually building up some resources on our wiki."
 tags:
 - doxxing
 - facebook
-- data_brokers
+- data brokers
 ---
 
 We have been gradually building up some resources on [our wiki](https://github.com/actsecure/resources/wiki). There are lots of great resources out there, but they often assume the risk level is "an elite hacker and/or the FBI is specifically watching me", which is not typically the case. Most people just want to [avoid being harassed by assholes on the internet](https://github.com/AnarchoTechNYC/meta/wiki/Security-training:-Individuals-versus-Random-Assholes). Nowadays, you don't even have to be an activist to have this worry, you can [show up at a protest](https://theintercept.com/2017/09/06/how-right-wing-extremists-stalk-dox-and-harass-their-enemies/) or [sign a petition](https://www.metro.us/news/big-stories/trump-supporters-publish-personal-information-antifa-doxxing), or even just piss off an individual alt-right member (check out the [shitstorm](http://sfist.com/2017/08/11/alt-right_plans_march_on_google_dox.php) that Google weathered trying to take on the alt-right).

@@ -7,7 +7,7 @@ tags:
 - doxxing
 - anarchism
 - training
-- data_brokers
+- data brokers
 ---
 
 Last weekend we had a lovely time hanging out at the [Boston Anarchist Book Fair](http://bostonanarchistbookfair.org/). If you have never been, we highly recommend checking it out next year. We also put on a cybersecurity workshop focusing on doxxing. While most of us might *feel* paranoid about massive corporations and the state snooping on us all the time, for most people the clear and present danger is doxxing.
