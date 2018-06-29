@@ -28,6 +28,8 @@ links:
     url: /blog
   - title: tags
     url: /tags
+  - title: about us
+    url: /about
 
 ################################################### Build settings
 markdown: kramdown
