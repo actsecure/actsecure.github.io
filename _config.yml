@@ -13,11 +13,13 @@ facebook_username: actsecure
 github_username:  actsecure
 gitter_username:  actsecure
 
-# Projects listed on index
-projects:
-  - name: protest-guide
-    url: https://github.com/actsecure/protest.guide
-  - name: resources wiki
+# Guides listed on index
+guides:
+  - name: protest.guide
+    url: http://www.protest.guide
+  - name: Top 5 Cybersecurity Basics
+    url: https://github.com/actsecure/resources/wiki/Top-5-Cybersecurity-Basics
+  - name: Draft guides wiki
     url: https://github.com/actsecure/resources/wiki
 
 # Links to include in menu navigation
@@ -26,6 +28,8 @@ links:
     url: /
   - title: blog
     url: /blog
+  - title: guides
+    url: /guides
   - title: tags
     url: /tags
   - title: about us

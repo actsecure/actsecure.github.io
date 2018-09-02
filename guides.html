@@ -1,0 +1,23 @@
+---
+layout: minimal
+title: Guides
+---
+
+<h2>Security Guides</h2>
+
+
+
+<div class="aboutme">
+  <ul class="recent">
+    {% for guide in site.guides %}
+    <li>
+      <h3>
+        <!--<span class="post-date">{{ post.date | date: "%b %-d, %Y" }}:</span>-->
+        <a href="{{ guide.url }}">
+          {{ guide.name }}
+        </a>
+      </h3>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
