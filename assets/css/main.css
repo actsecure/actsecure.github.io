@@ -900,38 +900,30 @@ body {
 
 .header-site,
 .header-post,
-.page-header {
+.page-header,
+.default {
   background: #000;
-  height: 100%;
 }
 
 .header-site .content,
 .header-post .content,
 .page-header .content {
-  width: 95%;
-  position: absolute;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center
+  text-align: center;
 }
 
-.header-site li {
+.default li {
   margin: 0;
   list-style-type: none
 }
 
-.header-site .person img {
+.default .person img {
   width: 130px;
   height: 130px;
   border-radius: 100%;
   margin-bottom: 80px
 }
 
-.header-site .recent {
+.default .content {
   *zoom: 1;
   width: auto;
   max-width: 450px;
@@ -943,32 +935,16 @@ body {
   padding-right: 0;
 }
 
-@media only screen and (max-width:320px) {
-  .header-site .recent:last-child {
-    display: none
-               }
-}
-
-.header-site .recent:before,
-.header-site .recent:after {
-  content: '';
-  display: table
-}
-
-.header-site .recent:after {
-  clear: both
-}
-
-.header-site .recent p {
+.default p {
   text-align: left;
   color: #fff
 }
 
-.header-site .recent a {
+.default a {
   text-decoration: none;
 }
 
-.header-site .recent a h2 {
+.default a h2 {
   text-align: left;
   margin: 0;
   font-weight: 300;
@@ -976,17 +952,17 @@ body {
   border-bottom: 1px solid #8774a9;
 }
 
-.header-site .recent a h2:hover {
+.default a h2:hover {
   background: rgba(135, 116, 169, 0.42)
 }
 
-.header-site h1,
-.header-site h2 {
+.default h1,
+.default h2 {
   color: #fff;
   text-align: center
 }
 
-.header-site .site-title {
+.default .site-title {
   font-size: 1.875rem;
   line-height: 1;
   margin-top: -80px;
@@ -995,21 +971,21 @@ body {
 }
 
 @media only screen and (min-width:37.5rem) {
-  .header-site .site-title {
+  .default .site-title {
     letter-spacing: 16px;
     margin-bottom: 0;
     font-size: 1.25rem
                 }
 }
 
-.header-site .site-description {
+.default .site-description {
   font-size: 1.25rem;
   display: block;
   margin: 1.875rem 0;
 }
 
 @media only screen and (min-width:37.5rem) {
-  .header-site .site-description {
+  .default .site-description {
     font-size: 2.5rem
                 }
 }
