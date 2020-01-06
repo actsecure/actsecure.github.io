@@ -861,25 +861,25 @@ body.search-overlay:after {
   border-radius: 50%
 }
 
-.aboutme .recent {
+.minimal .recent {
   list-style: none
 }
 
-.aboutme .post-title:before {
+.minimal .post-title:before {
   content: ""
 }
 
-.aboutme h2:hover {
+.minimal h2:hover {
   background-color: rgba(135, 116, 169, 0.42)
 }
 
-.aboutme li h3 {
+.minimal li h3 {
   font-size: 1.25rem;
   margin-bottom: 7px;
   position: relative;
 }
 
-.aboutme li h3:before {
+.minimal li h3:before {
   content: "|>";
   font-size: 1.25rem;
   color: #000;
@@ -888,7 +888,7 @@ body.search-overlay:after {
   transition: all .2s
 }
 
-.aboutme li h3:hover:before {
+.minimal li h3:hover:before {
   -webkit-transform: translateX(-10px);
   transform: translateX(-10px)
 }
