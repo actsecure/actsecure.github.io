@@ -67,7 +67,7 @@ dfn {
 
 h1 {
   font-size: 2em;
-  margin: .67em 0
+  margin: 0 0 1rem 0;
 }
 
 mark {
@@ -926,7 +926,7 @@ body {
 .default .content {
   *zoom: 1;
   width: auto;
-  max-width: 450px;
+  max-width: 500px;
   float: none;
   display: block;
   margin-right: auto;
@@ -937,7 +937,9 @@ body {
 
 .default p {
   text-align: left;
-  color: #fff
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 2rem;
 }
 
 .default a {
@@ -946,7 +948,7 @@ body {
 
 .default a h2 {
   text-align: left;
-  margin: 0;
+  margin: 1rem 0;
   font-weight: 300;
   font-size: 1.063rem;
   border-bottom: 1px solid #8774a9;
@@ -960,6 +962,10 @@ body {
 .default h2 {
   color: #fff;
   text-align: center
+}
+
+.default h2 {
+  margin: 3rem 0 2rem 0;
 }
 
 .default .site-title {
