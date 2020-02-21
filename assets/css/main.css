@@ -351,7 +351,6 @@ body {
 
 a,
 aside,
-.overlay,
 body {
   transition: all .25s ease
 }
@@ -390,10 +389,6 @@ a.slideButton,
 .icon-search {
   width: 2.188rem;
   height: 2.188rem
-}
-
-.overlay {
-  cursor: pointer
 }
 
 #close {
@@ -623,23 +618,6 @@ aside.slide {
 
 a.slideButton.slide {
   pointer-events: none
-}
-
-.overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  bottom: 0;
-  left: 0;
-  pointer-events: none;
-  background: transparent;
-  z-index: 30;
-}
-
-.overlay.slide {
-  pointer-events: auto;
-  bottom: 162px;
-  background: rgba(0, 0, 0, 0.6)
 }
 
 input[type="search"] {
