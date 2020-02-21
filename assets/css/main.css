@@ -328,7 +328,7 @@ h4 {
 }
 
 .icon-arrow-menu {
-  vertical-align: bottom;
+  vertical-align: middle;
   width: 18px;
   height: 15px
 }
@@ -402,9 +402,10 @@ a.slideButton,
 
 aside {
   position: fixed;
-  height: 163px;
+  height: calc(400px - 40vw);
+  min-height: 175px;
   width: 100%;
-  bottom: -100%;
+  bottom: 0;
   background: #2f2f33;
   z-index: 20;
   box-shadow: inset -10px -1px 15px -9px rgba(0, 0, 0, 0.5);
@@ -417,13 +418,12 @@ aside li {
 
 aside ul {
   margin: 0;
-  padding: 0
+  padding: 0;
 }
 
 aside #topmenu {
   background-color: #000;
   border: 2px solid #000;
-  *zoom: 1;
 }
 
 aside #topmenu:before,
@@ -441,7 +441,8 @@ aside #topmenu ul {
   float: left;
   clear: none;
   text-align: inherit;
-  width: 63.95%;
+  width: 63.95%; /* wut? */
+  min-width: 300px;
   margin-left: 0%;
   margin-right: 3%;
 }
@@ -581,18 +582,20 @@ aside #topmenu ul li span {
   color: #ab67ab
 }
 
-@media only screen and (max-width:37.5rem) {
-  aside #topmenu ul li:nth-child(3),
-  aside #topmenu ul li:nth-child(4) {
-    display: none
-               }
+aside nav {
+  height: calc(100% - 50px);
 }
 
 aside nav ul {
   padding: 10px 0 0 10px;
-  float: left;
   margin-right: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
 }
+
+@media only screen and (max-width:)
 
 aside nav ul .counter-menu {
   color: #ab67ab;
