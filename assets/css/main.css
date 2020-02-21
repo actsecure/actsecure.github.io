@@ -350,6 +350,10 @@ body {
   margin-bottom: 300px; /* make room for fixed nav */
 }
 
+section {
+  margin-bottom: 300px; /* make room for fixed nav -- don't know why this didn't work on body */
+}
+
 a,
 aside,
 body {
