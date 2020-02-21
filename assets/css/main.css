@@ -346,7 +346,8 @@ h4 {
 body {
   left: 0;
   right: 0;
-  margin: auto
+  margin: auto;
+  margin-bottom: 300px; /* make room for fixed nav */
 }
 
 a,
@@ -355,21 +356,13 @@ body {
   transition: all .25s ease
 }
 
-a.slideButton,
 .dosearch {
   position: absolute;
   display: block;
   width: 40px;
   height: 40px;
   top: 10px;
-  z-index: 31
-}
-
-.slideButton {
-  left: 10px
-}
-
-.dosearch {
+  z-index: 31;
   right: 10px;
   background: #54456e;
   border-radius: .188rem;
